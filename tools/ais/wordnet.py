@@ -18,7 +18,6 @@ class Wordnet:
             for each in results[0]:
                 if each != '':
                     new.append(each)
-
         return new
 
     def get_more_synsets(self,what_to_search):
