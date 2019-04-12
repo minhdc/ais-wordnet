@@ -3,8 +3,9 @@ from pandas import ExcelFile,read_excel
 
 class Wordnet:    
     def __init__(self,wordnet_path):
-        logging.info("initing Wordnet object")
-        logging.info('current path: ', wordnet_path = wordnet_path if wordnet_path else 'not specified yet')
+        logger = logging.getLogger(__name__)
+        logger.info("initing Wordnet object")
+        logger.info('current path: ', wordnet_path = wordnet_path if wordnet_path else 'not specified yet')
         self.wordnet = None
         self.default_index = 0
         if wordnet_path:
@@ -18,6 +19,8 @@ class Wordnet:
             for each in results[0]:
                 if each != '':
                     new.append(each)
+        else:
+            new.append(what_to_search)
         return new
 
     def get_more_synsets(self,what_to_search):

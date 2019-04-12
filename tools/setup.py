@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ais-wordnet",
-    version="0.0.4",
+    version="0.0.14",
     author="Minh Dinh",
     author_email="extreme45nm@gmail.com",
     description="An interface for the wordnet",

@@ -1,15 +1,19 @@
 Metadata-Version: 2.1
 Name: ais-wordnet
-Version: 0.0.4
+Version: 0.0.14
 Summary: An interface for the wordnet
 Home-page: https://github.com/minhdc/ais-wordnet
 Author: Minh Dinh
 Author-email: extreme45nm@gmail.com
 License: UNKNOWN
-Description: 
-        # Example Package
+Description: docs:
+            https://github.com/minhdc/ais-wordnet
         
-        This is a simple example package. You can use
+        
+        
+        
+        
+        
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
