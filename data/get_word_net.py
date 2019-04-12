@@ -19,7 +19,7 @@ workbook = xlsxwriter.Workbook('wordnet.xlsx')
 n = workbook.add_worksheet('n')
 a = workbook.add_worksheet('a')
 v = workbook.add_worksheet('v')
-adv = workbook.add_worksheet('adv')
+adv = workbook.add_worksheet('e')
 
 col = 0
 n_row = 0
