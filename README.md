@@ -1,14 +1,14 @@
-# ais-wordnet#
+# ais-wordnet
 
-#install#
+## Install
 
-##
+```
 pip install ais_wordnet
-##
+```
 
-#Usage#
+## Usage
 
-##
+```
 
 from ais import wordnet
 from ais import sentence
@@ -26,5 +26,35 @@ sentence = 'thế lực thù địch có những âm mưu gì'
 s = sentence.Sentence(sentence,tag_list)
 print(s.get_similar_sentences_as_list(sample))
 
+```
 
-##
+
+
+## Built With
+
+* [setuptools]
+* [twine]
+
+## Contributing
+
+Not yet
+
+## Versioning
+
+Not yet
+
+## Authors
+
+* **Minh Dinh** - *Initial work* -
+
+
+
+## License
+
+This project is licensed under the MIT License 
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
