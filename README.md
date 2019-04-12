@@ -1,12 +1,12 @@
-# ais-wordnet
+# ais-wordnet#
 
-#install
+#install#
 
 ##
 pip install ais_wordnet
 ##
 
-#Usage
+#Usage#
 
 ##
 
