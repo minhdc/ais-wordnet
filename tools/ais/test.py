@@ -9,25 +9,13 @@ import socket
 import os, sys
 import time
 
+
 import util
 
+
 sample_wordnet = wordnet.Wordnet('wordnet10-4-2019.xlsx')
+#sample_wordnet = wordnet.Wordnet(xlsx)
 tag_list = ['n','v','a','e']
-'''
-class MyServer(BaseHTTPRequestHandler):
-    
-    def do_GET(self):
-        global sample_wordnet
-
-        self.send_response(200)
-        self.send_header('Content-Type', 'application/json')
-        self.end_headers()
-
-        xxx =unquote(unquote(self.path))
-        arr = xxx.split("/")
-        results = sample_wordnet.get_ez_synsets_as_row(xxx)
-        self.wfile.write(bytes(json.dumps(results),"utf-8"))
-'''
 
 
 test_data = ['phòng','đảng','chính quyền','làm chủ','ban','đảng viên']
